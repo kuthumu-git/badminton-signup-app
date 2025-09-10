@@ -320,8 +320,7 @@ with admin_tab:
         cutoff_utc = dt.datetime.combine(session_date - dt.timedelta(days=1), cutoff_time)
 
         title = st.text_input("Title", value="Weekly Badminton")
-        notes = st.text_area("Notes (court, fee, etc.)", value="Location: ...
-Fee: ...")
+        notes = st.text_area("Notes (court, fee, etc.)", value="Location: Court ABC\nFee: £5")
 
         if st.button("Create session"):
             sid = write_session(session_date, int(capacity), cutoff_utc, title, notes)
