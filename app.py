@@ -18,7 +18,6 @@
 #    private_key = "-----BEGIN PRIVATE KEY-----
 ...
 -----END PRIVATE KEY-----
-"
 #    client_email = "...@...gserviceaccount.com"
 #    client_id = "..."
 #    auth_uri = "https://accounts.google.com/o/oauth2/auth"
