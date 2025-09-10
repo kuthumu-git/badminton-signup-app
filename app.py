@@ -15,9 +15,7 @@
 #    type = "service_account"
 #    project_id = "..."
 #    private_key_id = "..."
-#    private_key = "-----BEGIN PRIVATE KEY-----
-...
------END PRIVATE KEY-----
+#    private_key = "..."
 #    client_email = "...@...gserviceaccount.com"
 #    client_id = "..."
 #    auth_uri = "https://accounts.google.com/o/oauth2/auth"
